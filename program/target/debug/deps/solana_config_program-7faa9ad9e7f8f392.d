@@ -1,0 +1,8 @@
+/home/natalie/solana-croudfunding/program/target/debug/deps/solana_config_program-7faa9ad9e7f8f392.d: /home/natalie/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/solana-config-program-1.18.26/src/lib.rs /home/natalie/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/solana-config-program-1.18.26/src/config_instruction.rs /home/natalie/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/solana-config-program-1.18.26/src/config_processor.rs /home/natalie/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/solana-config-program-1.18.26/src/date_instruction.rs
+
+/home/natalie/solana-croudfunding/program/target/debug/deps/libsolana_config_program-7faa9ad9e7f8f392.rmeta: /home/natalie/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/solana-config-program-1.18.26/src/lib.rs /home/natalie/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/solana-config-program-1.18.26/src/config_instruction.rs /home/natalie/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/solana-config-program-1.18.26/src/config_processor.rs /home/natalie/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/solana-config-program-1.18.26/src/date_instruction.rs
+
+/home/natalie/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/solana-config-program-1.18.26/src/lib.rs:
+/home/natalie/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/solana-config-program-1.18.26/src/config_instruction.rs:
+/home/natalie/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/solana-config-program-1.18.26/src/config_processor.rs:
+/home/natalie/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/solana-config-program-1.18.26/src/date_instruction.rs:

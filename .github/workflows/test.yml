@@ -1,0 +1,53 @@
+name: Test and Build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Setup Solana
+      uses: solana-setup/solana@v1
+      
+    - name: Setup Rust
+      uses: actions-rs/toolchain@v1
+      with:
+        toolchain: stable
+        
+    - name: Build program
+      run: |
+        cd program
+        cargo build-bpf
+        
+    - name: Run tests
+      run: |
+        cd program
+        cargo test
+        
+  build-frontend:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+        
+    - name: Install dependencies
+      run: |
+        cd app
+        npm ci
+        
+    - name: Build frontend
+      run: |
+        cd app
+        npm run build
