@@ -16,17 +16,28 @@ A decentralized crowdfunding platform built on Solana blockchain. Create campaig
 ## 🏗️ Architecture
 
 Smart Contract (Rust)
+
 ├── Create Campaign
+
 ├── Donate to Campaign
+
 ├── Withdraw Funds
+
 ├── Cancel Campaign
+
 └── Update Campaign
 
+
 Frontend (React/Next.js)
+
 ├── Wallet Integration
+
 ├── Campaign Dashboard
+
 ├── Donation Interface
+
 └── Real-time Updates
+
 
 ## 🚀 Quick Start
 
@@ -76,7 +87,6 @@ cd app
 npm run dev
 
 📁 Project Structure
-text
 
 solana-crowdfunding/
 ├── program/                 # Solana program (Rust)
