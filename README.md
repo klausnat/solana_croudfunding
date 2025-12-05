@@ -54,11 +54,11 @@ Frontend (React/Next.js)
 ```bash
 git clone https://github.com/klausnat/solana-crowdfunding.git
 cd solana-crowdfunding
-```
+```bash
 
 2. **Install dependencies**  
 
-# Program (Rust)
+Program (Rust)
 cd program
 cargo build
 
