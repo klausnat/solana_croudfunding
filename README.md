@@ -54,7 +54,6 @@ Frontend (React/Next.js)
 ```bash
 git clone https://github.com/klausnat/solana-crowdfunding.git
 cd solana-crowdfunding
-```
 
 📁 Project Structure
 
