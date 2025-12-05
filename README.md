@@ -54,39 +54,7 @@ Frontend (React/Next.js)
 ```bash
 git clone https://github.com/klausnat/solana-crowdfunding.git
 cd solana-crowdfunding
-```bash
-
-2. **Install dependencies**  
-
-Program (Rust)
-cd program
-cargo build
-
-# Frontend
-cd ../app
-npm install
-
-3. **Setup Solana Environment**    
-
-solana config set --url devnet
-solana-keygen new
-
-4. **Deploy the program**    
-
-cd program
-cargo build-bpf
-solana program deploy ./target/deploy/solana_crowdfunding.so
-
-5. **Update program ID**    
-
-# Copy the deployed program ID and update:
-# - app/src/utils/program.ts
-# - tests/crowdfunding.test.ts
-
-6. **Run the frontend**
-
-cd app
-npm run dev
+```
 
 📁 Project Structure
 
