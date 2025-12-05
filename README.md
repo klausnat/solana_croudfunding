@@ -50,11 +50,13 @@ Frontend (React/Next.js)
 ### Installation
 
 1. **Clone the repository**
-```bash
-git clone https://github.com/yourusername/solana-crowdfunding.git
-cd solana-crowdfunding
 
-2. **Install dependencies**    
+```bash
+git clone https://github.com/klausnat/solana-crowdfunding.git
+cd solana-crowdfunding
+```
+
+2. **Install dependencies**  
 
 # Program (Rust)
 cd program
